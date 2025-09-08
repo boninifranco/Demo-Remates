@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('bovinos_youtube_data.json');
         bovinosData = await response.json();
-        console.log("Datos de bovinos cargados:", bovinosData);
+        console.log("Response URL:", response.url);
+        console.log("bovinosData length:", bovinosData.length);
+        console.log("Primeros 2:", bovinosData.slice(0,2));
+        console.log("Últimos 2:", bovinosData.slice(-2));
         loadBovinosGallery(); // Carga la galería una vez que los datos están disponibles
     } catch (error) {
         console.error("Error al cargar los datos de bovinos:", error);
