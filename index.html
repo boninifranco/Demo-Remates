@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOTES MSG 2025</title>
+    <title>ANGUS PRIMAVERA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- NUEVO: navegación por categorías -->
+    <header class="site-header">
+      <nav id="categories-nav" class="categories-nav"></nav>
+    </header>
+
     <main class="general-container">
       <div class="video-player-container">
         <div id="youtube-player"></div>
-
         <div class="click-overlay"></div>
       </div>
 
-      <div id="bovino-gallery" class="gallery-grid"></div>
+      <!-- NUEVO: secciones por categoría -->
+      <div id="bovino-sections" class="sections-container"></div>
     </main>
 
     <script src="https://www.youtube.com/iframe_api"></script>
