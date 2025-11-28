@@ -5,6 +5,22 @@ let domLoaded = false;
 
 /** -------- Config: orden exacto de categorías (usa los textos tal cual en tu JSON) -------- */
 const ORDERED_CATEGORIES = [
+  "VAQUILLONAS CON CRÍA P.C.",
+  "VACAS CON CRÍA P.C.",
+  "VAQUILLONAS CON CRÍA P.C. Y M.A.S.",
+  "VAQUILLONAS CON CRÍA GRAL.",
+  "VACA CON CRÍA GRAL.",
+  "VAQUILLONAS PREÑADAS M.A.S.",
+  "VACAS PREÑADAS M.A.S.",
+  "VAQUILLONAS PREÑADAS M.A.S.",
+  "VACAS PREÑADAS M.A.S.",
+  "VAQUILLONAS PREÑADAS M.A.S.",
+  "VACAS PREÑADAS M.A.S.",
+  "VAQUILLONAS PREÑADAS M.A.S.",
+  "VACAS PREÑADAS M.A.S.",
+  "VAQUILLONAS PREÑADAS GRAL.",
+  "VACAS PREÑADAS GRAL.",
+  "VAQUILLONAS SIN SERVICIO P.C.",
   "FAENA",
   "VACAS VACÍAS",
   "TERNEROS",
@@ -19,7 +35,7 @@ const ORDERED_CATEGORIES = [
   "VACAS C/CRÍAS",
   "VACAS CUT PREÑADAS",
   "VACAS CUT C/CRÍAS",
-  "SIN CATEGORÍA"
+  "SIN CATEGORÍA",
 ];
 
 /** ---------------- YouTube API ---------------- */
