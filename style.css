@@ -78,33 +78,100 @@ h1 {
 
 /* ── Header / Nav ── */
 .site-header {
-  width: 90%;
+  width: 100%;
   max-width: 100%;
-  padding: 12px 20px;
+  padding: 0 0 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  align-items: flex-start;
+  gap: 12px;
+  align-items: center;
+  background: linear-gradient(160deg, #0a0a1a 0%, #0d1b3e 60%, #1a0a00 100%);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  box-sizing: border-box;
+}
+
+/* ── Título principal ── */
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 28px 32px 20px;
+  position: relative;
+}
+
+.site-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c9a84c, transparent);
+}
+
+.site-title__number {
+  font-family: 'Bebas Neue', 'Arial Black', sans-serif;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 1;
+  color: #c9a84c;
+  text-shadow: 0 0 40px rgba(201,168,76,0.5), 2px 2px 0 rgba(0,0,0,0.6);
+  letter-spacing: -2px;
+}
+
+.site-title__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.site-title__expo {
+  font-family: 'Bebas Neue', 'Arial Black', sans-serif;
+  font-size: clamp(2rem, 6vw, 4.2rem);
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.site-title__expo strong {
+  color: #c9a84c;
+  font-weight: inherit;
+}
+
+.site-title__sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+  padding-left: 2px;
 }
 
 .categories-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  padding: 0 16px;
+  justify-content: center;
 }
 
 .categories-nav a {
   text-decoration: none;
-  padding: 6px 10px;
+  padding: 6px 14px;
   border-radius: 999px;
-  background: #fff;
-  border: 1px solid #ddd;
-  font-size: 0.9rem;
-  color: #333;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(201,168,76,0.4);
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  transition: background 0.15s, border-color 0.15s;
 }
 
 .categories-nav a:hover {
-  background: #f5f5f5;
+  background: rgba(201,168,76,0.15);
+  border-color: #c9a84c;
+  color: #fff;
 }
 
 /* ── Secciones ── */
