@@ -1,752 +1,123 @@
 [
   {
-    "name": "LOTE N° 01 - SAN AGUSTIN",
-    "youtube_video_id": "ao_lN_MuTFo",
-    "thumbnail_image": "https://img.youtube.com/vi/ao_lN_MuTFo/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "LUNES 18",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/lunes.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 02 - SAN AGUSTIN",
-    "youtube_video_id": "CLsZRct5kTE",
-    "thumbnail_image": "https://img.youtube.com/vi/CLsZRct5kTE/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "MARTES 19",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/martes.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 03 - DON CARLOS",
-    "youtube_video_id": "pM0wW0ZOHc4",
-    "thumbnail_image": "https://img.youtube.com/vi/pM0wW0ZOHc4/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "A PARTIR DEL MARTES 19",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/martes2.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 04 - DON CARLOS",
-    "youtube_video_id": "vmD9_d25IIA",
-    "thumbnail_image": "https://img.youtube.com/vi/vmD9_d25IIA/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "MIERCOLES 20",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/miercoles.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 05 - DON CARLOS",
-    "youtube_video_id": "dAKMuX892A8",
-    "thumbnail_image": "https://img.youtube.com/vi/dAKMuX892A8/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "JUEVES 21",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/jueves.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 06 - DON CARLOS",
-    "youtube_video_id": "2kQI3D0YWhM",
-    "thumbnail_image": "https://img.youtube.com/vi/2kQI3D0YWhM/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "VIERNES 22",
+    "category": "AGENDA DE ACTIVIDADES",
+    "image": "assets/agenda/viernes.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 07 - LOS SALTOS S.A.",
-    "youtube_video_id": "te1Y8gfoJWc",
-    "thumbnail_image": "https://img.youtube.com/vi/te1Y8gfoJWc/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C."
+    "title": "LUNES 18",
+    "category": "ACTIVIDADES ESPECIALES",
+    "image": "assets/especiales/1.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 08 - EL ROSARIO",
-    "youtube_video_id": "5xC0YNNRqqc",
-    "thumbnail_image": "https://img.youtube.com/vi/5xC0YNNRqqc/mqdefault.jpg",
-    "category": "VACAS CON CRÍA P.C."
+    "title": "LUNES 18",
+    "category": "ACTIVIDADES ESPECIALES",
+    "image": "assets/especiales/2.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 09 - EL ROSARIO",
-    "youtube_video_id": "fbrdFOgKKL8",
-    "thumbnail_image": "https://img.youtube.com/vi/fbrdFOgKKL8/mqdefault.jpg",
-    "category": "VACAS CON CRÍA P.C."
+    "title": "MARTES 19",
+    "category": "ACTIVIDADES ESPECIALES",
+    "image": "assets/especiales/3.jpeg",
+    "type": "image"
   },
+
   {
-    "name": "LOTE N° 10 - EL ROSARIO",
-    "youtube_video_id": "oNZbSI7Tg9Y",
-    "thumbnail_image": "https://img.youtube.com/vi/oNZbSI7Tg9Y/mqdefault.jpg",
-    "category": "VACAS CON CRÍA P.C."
+    "title": "LUNES 18",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/lunes.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 11 - EL ROSARIO",
-    "youtube_video_id": "Pv1T3CNfKCE",
-    "thumbnail_image": "https://img.youtube.com/vi/Pv1T3CNfKCE/mqdefault.jpg",
-    "category": "VACAS CON CRÍA P.C."
+    "title": "MARTES 19",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/martes1.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 12 - SAN AGUSTIN",
-    "youtube_video_id": "37y7TBKMtks",
-    "thumbnail_image": "https://img.youtube.com/vi/37y7TBKMtks/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C. Y M.A.S."
+    "title": "MARTES 19",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/martes2.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 13 - EL VOLCAN",
-    "youtube_video_id": "ISG2gL_CDo0",
-    "thumbnail_image": "https://img.youtube.com/vi/ISG2gL_CDo0/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C. Y M.A.S."
+    "title": "MARTES 19",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/martes3.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 14 - EL VOLCAN",
-    "youtube_video_id": "HrhHjii_kx4",
-    "thumbnail_image": "https://img.youtube.com/vi/HrhHjii_kx4/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C. Y M.A.S."
+    "title": "MIERCOLES 20",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/miercoles1.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 15 - EL VOLCAN",
-    "youtube_video_id": "2sl1IbA3PFs",
-    "thumbnail_image": "https://img.youtube.com/vi/2sl1IbA3PFs/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C. Y M.A.S."
+    "title": "MIERCOLES 20",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/miercoles2.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 16 - EL VOLCAN",
-    "youtube_video_id": "MDQU5V3d7nA",
-    "thumbnail_image": "https://img.youtube.com/vi/MDQU5V3d7nA/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA P.C. Y M.A.S."
+    "title": "MIERCOLES 20",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/miercoles3.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 17 - RURALDELF S.A.",
-    "youtube_video_id": "5n7w5rTwPBk",
-    "thumbnail_image": "https://img.youtube.com/vi/5n7w5rTwPBk/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA GRAL."
+    "title": "JUEVES 21",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/jueves.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 18 - RURALDELF S.A.",
-    "youtube_video_id": "IeDih8b4GzU",
-    "thumbnail_image": "https://img.youtube.com/vi/IeDih8b4GzU/mqdefault.jpg",
-    "category": "VAQUILLONAS CON CRÍA GRAL."
+    "title": "JUEVES 21",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/jueves2.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 19 - JUSOTO S.A",
-    "youtube_video_id": "1ThHN3O964A",
-    "thumbnail_image": "https://img.youtube.com/vi/1ThHN3O964A/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
+    "title": "VIERNES 22",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/viernes1.jpeg",
+    "type": "image"
   },
   {
-    "name": "LOTE N° 20 - JUSOTO S.A.",
-    "youtube_video_id": "BrGPLmnIbVw",
-    "thumbnail_image": "https://img.youtube.com/vi/BrGPLmnIbVw/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 21 - LA MARIA LUISA",
-    "youtube_video_id": "FsSL8urghkE",
-    "thumbnail_image": "https://img.youtube.com/vi/FsSL8urghkE/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 22 - LA MARIA LUISA",
-    "youtube_video_id": "BHzsbtfxbzw",
-    "thumbnail_image": "https://img.youtube.com/vi/BHzsbtfxbzw/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 23 - LA MARIA LUISA",
-    "youtube_video_id": "4WQLCe-z5Xw",
-    "thumbnail_image": "https://img.youtube.com/vi/4WQLCe-z5Xw/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 24 - DI NEZIO MARCOS",
-    "youtube_video_id": "hBMdrpYhTek",
-    "thumbnail_image": "https://img.youtube.com/vi/hBMdrpYhTek/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 25 - DI NEZIO MARCOS",
-    "youtube_video_id": "JzRmvQIFAY0",
-    "thumbnail_image": "https://img.youtube.com/vi/JzRmvQIFAY0/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 26 - DI NEZIO MARCOS",
-    "youtube_video_id": "yd21HqLazpg",
-    "thumbnail_image": "https://img.youtube.com/vi/yd21HqLazpg/mqdefault.jpg",
-    "category": "VACA CON CRÍA GRAL."
-  },
-  {
-    "name": "LOTE N° 27 - EL VOLCÁN",
-    "youtube_video_id": "sqGZHNJLz3g",
-    "thumbnail_image": "https://img.youtube.com/vi/sqGZHNJLz3g/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 28 - EL VOLCAN",
-    "youtube_video_id": "uTVunL_EktQ",
-    "thumbnail_image": "https://img.youtube.com/vi/uTVunL_EktQ/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 29 - EL VOLCAN",
-    "youtube_video_id": "_mWVFDjOF0I",
-    "thumbnail_image": "https://img.youtube.com/vi/_mWVFDjOF0I/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 30 - EL VOLCAN",
-    "youtube_video_id": "BsJ--6rvsOA",
-    "thumbnail_image": "https://img.youtube.com/vi/BsJ--6rvsOA/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 31 - EL VENDABAL",
-    "youtube_video_id": "vz-ztyEnzms",
-    "thumbnail_image": "https://img.youtube.com/vi/vz-ztyEnzms/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 32 - EL VENDABAL",
-    "youtube_video_id": "ukpr8WnbfE8",
-    "thumbnail_image": "https://img.youtube.com/vi/ukpr8WnbfE8/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 33 - EL VENDABAL",
-    "youtube_video_id": "NzKyyFgFmb0",
-    "thumbnail_image": "https://img.youtube.com/vi/NzKyyFgFmb0/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 34 - EL VENDABAL",
-    "youtube_video_id": "Qks59pAt5jY",
-    "thumbnail_image": "https://img.youtube.com/vi/Qks59pAt5jY/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 35 - EL VENDABAL",
-    "youtube_video_id": "u7dxxFXxD4U",
-    "thumbnail_image": "https://img.youtube.com/vi/u7dxxFXxD4U/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 36 - ARANDU",
-    "youtube_video_id": "Jdhpg9-f0Eo",
-    "thumbnail_image": "https://img.youtube.com/vi/Jdhpg9-f0Eo/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 37 - ARANDU",
-    "youtube_video_id": "mJreSS2lEkk",
-    "thumbnail_image": "https://img.youtube.com/vi/mJreSS2lEkk/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 38 - ARANDU",
-    "youtube_video_id": "9BMK3u4p-eM",
-    "thumbnail_image": "https://img.youtube.com/vi/9BMK3u4p-eM/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 39 - ARANDU",
-    "youtube_video_id": "gFetivmVKsA",
-    "thumbnail_image": "https://img.youtube.com/vi/gFetivmVKsA/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 40 - ARANDU",
-    "youtube_video_id": "nkf-oNZz_jE",
-    "thumbnail_image": "https://img.youtube.com/vi/nkf-oNZz_jE/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 41 - ANGUS DEL SUR",
-    "youtube_video_id": "9fqxz7uZ_OE",
-    "thumbnail_image": "https://img.youtube.com/vi/9fqxz7uZ_OE/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 42 - ARANDÚ",
-    "youtube_video_id": "V9509qcLRV8",
-    "thumbnail_image": "https://img.youtube.com/vi/V9509qcLRV8/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 43 - ARANDÚ",
-    "youtube_video_id": "OxegkArtOZw",
-    "thumbnail_image": "https://img.youtube.com/vi/OxegkArtOZw/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 44 - ARANDÚ",
-    "youtube_video_id": "On1HmTY8PoI",
-    "thumbnail_image": "https://img.youtube.com/vi/On1HmTY8PoI/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 45 - ARANDÚ",
-    "youtube_video_id": "McUuU-fHcnM",
-    "thumbnail_image": "https://img.youtube.com/vi/McUuU-fHcnM/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 46 - ARANDÚ",
-    "youtube_video_id": "UU8W5Lervw4",
-    "thumbnail_image": "https://img.youtube.com/vi/UU8W5Lervw4/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 47 - ARANDÚ",
-    "youtube_video_id": "nV9nuaj4vuE",
-    "thumbnail_image": "https://img.youtube.com/vi/nV9nuaj4vuE/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 48 - ARANDÚ",
-    "youtube_video_id": "IJI6yrRjThg",
-    "thumbnail_image": "https://img.youtube.com/vi/IJI6yrRjThg/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 49 - ARANDÚ",
-    "youtube_video_id": "sG7IDaROYCc",
-    "thumbnail_image": "https://img.youtube.com/vi/sG7IDaROYCc/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 50 - ARANDÚ",
-    "youtube_video_id": "FJDIUxqNqrU",
-    "thumbnail_image": "https://img.youtube.com/vi/FJDIUxqNqrU/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 51 - ARANDU",
-    "youtube_video_id": "qQ26m2tmUWo",
-    "thumbnail_image": "https://img.youtube.com/vi/qQ26m2tmUWo/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 52 - ARANDU",
-    "youtube_video_id": "5cgrEXqXaWs",
-    "thumbnail_image": "https://img.youtube.com/vi/5cgrEXqXaWs/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 53 - ARANDU",
-    "youtube_video_id": "JkJTB8BCL2s",
-    "thumbnail_image": "https://img.youtube.com/vi/JkJTB8BCL2s/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 54 - ARANDU",
-    "youtube_video_id": "iMfkiD4Y_E0",
-    "thumbnail_image": "https://img.youtube.com/vi/iMfkiD4Y_E0/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 55 - ARANDU",
-    "youtube_video_id": "xfBF4X2FQDc",
-    "thumbnail_image": "https://img.youtube.com/vi/xfBF4X2FQDc/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 56 - ARANDÚ",
-    "youtube_video_id": "6svVTHg1WDU",
-    "thumbnail_image": "https://img.youtube.com/vi/6svVTHg1WDU/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 57 - ARANDÚ",
-    "youtube_video_id": "yeMZo04ubVc",
-    "thumbnail_image": "https://img.youtube.com/vi/yeMZo04ubVc/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 58 - ARANDU",
-    "youtube_video_id": "FGMdUzZuQw8",
-    "thumbnail_image": "https://img.youtube.com/vi/FGMdUzZuQw8/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 59 - ARANDÚ",
-    "youtube_video_id": "9wcDI5_tgjU",
-    "thumbnail_image": "https://img.youtube.com/vi/9wcDI5_tgjU/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 60 - ARANDÚ",
-    "youtube_video_id": "f_t0Wiyi144",
-    "thumbnail_image": "https://img.youtube.com/vi/f_t0Wiyi144/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 61 - ARANDÚ",
-    "youtube_video_id": "Yj5mBuTuQG4",
-    "thumbnail_image": "https://img.youtube.com/vi/Yj5mBuTuQG4/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 62 - ARANDÚ",
-    "youtube_video_id": "cTamlUUvkwE",
-    "thumbnail_image": "https://img.youtube.com/vi/cTamlUUvkwE/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 63 - GUEVARA DEFFERRARI",
-    "youtube_video_id": "75IlyKI63hs",
-    "thumbnail_image": "https://img.youtube.com/vi/75IlyKI63hs/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 64 - GUEVARA DEFFERRARI",
-    "youtube_video_id": "IyB6lfh6TWk",
-    "thumbnail_image": "https://img.youtube.com/vi/IyB6lfh6TWk/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 65 - GUEVARA DEFFERRARI",
-    "youtube_video_id": "bpRlgLWz-zA",
-    "thumbnail_image": "https://img.youtube.com/vi/bpRlgLWz-zA/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 66 - LOS SALTOS S.A",
-    "youtube_video_id": "TxjPl2qT-KY",
-    "thumbnail_image": "https://img.youtube.com/vi/TxjPl2qT-KY/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 67 - LOS SALTOS S.A",
-    "youtube_video_id": "oGwHgtjvN_8",
-    "thumbnail_image": "https://img.youtube.com/vi/oGwHgtjvN_8/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 68 - SANTA MÓNICA",
-    "youtube_video_id": "FZFB2LzW8lw",
-    "thumbnail_image": "https://img.youtube.com/vi/FZFB2LzW8lw/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 69 - ARANDÚ",
-    "youtube_video_id": "i2VetxCFRL0",
-    "thumbnail_image": "https://img.youtube.com/vi/i2VetxCFRL0/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 70 - ARANDÚ",
-    "youtube_video_id": "aiFnSXOyCz0",
-    "thumbnail_image": "https://img.youtube.com/vi/aiFnSXOyCz0/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 71 - ARANDÚ",
-    "youtube_video_id": "oRtWs29ZfUk",
-    "thumbnail_image": "https://img.youtube.com/vi/oRtWs29ZfUk/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 72 - ARANDÚ",
-    "youtube_video_id": "kDqVMhhb8YU",
-    "thumbnail_image": "https://img.youtube.com/vi/kDqVMhhb8YU/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 73 - ARANDÚ",
-    "youtube_video_id": "TOMHILyEQ0o",
-    "thumbnail_image": "https://img.youtube.com/vi/TOMHILyEQ0o/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 74 - EL CORTIJO",
-    "youtube_video_id": "AXXFsXCrywg",
-    "thumbnail_image": "https://img.youtube.com/vi/AXXFsXCrywg/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 75 - EL CORTIJO",
-    "youtube_video_id": "_Lff_SmcziM",
-    "thumbnail_image": "https://img.youtube.com/vi/_Lff_SmcziM/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 76 - ARANDÚ",
-    "youtube_video_id": "Tr6_jUvovOc",
-    "thumbnail_image": "https://img.youtube.com/vi/Tr6_jUvovOc/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 77 - ARANDÚ",
-    "youtube_video_id": "4uAnXMrjd3I",
-    "thumbnail_image": "https://img.youtube.com/vi/4uAnXMrjd3I/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 78 - ARANDÚ",
-    "youtube_video_id": "A9_4ZxPcRqY",
-    "thumbnail_image": "https://img.youtube.com/vi/A9_4ZxPcRqY/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 79 - ARANDÚ",
-    "youtube_video_id": "cnNrux0s7X4",
-    "thumbnail_image": "https://img.youtube.com/vi/cnNrux0s7X4/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 80 - ARANDÚ",
-    "youtube_video_id": "9w65b3VtK0k",
-    "thumbnail_image": "https://img.youtube.com/vi/9w65b3VtK0k/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 81 - ARANDÚ",
-    "youtube_video_id": "jsyo0sYXgN8",
-    "thumbnail_image": "https://img.youtube.com/vi/jsyo0sYXgN8/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 82 - ARANDÚ",
-    "youtube_video_id": "FYxS21h8Cis",
-    "thumbnail_image": "https://img.youtube.com/vi/FYxS21h8Cis/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 83 - ARANDÚ",
-    "youtube_video_id": "Wh8_1HESYoc",
-    "thumbnail_image": "https://img.youtube.com/vi/Wh8_1HESYoc/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 84 - EL CORTIJO",
-    "youtube_video_id": "PlQ7yW79pEo",
-    "thumbnail_image": "https://img.youtube.com/vi/PlQ7yW79pEo/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 85 - EL CORTIJO",
-    "youtube_video_id": "q6L6sBrTf6Q",
-    "thumbnail_image": "https://img.youtube.com/vi/q6L6sBrTf6Q/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 86 - EL CORTIJO",
-    "youtube_video_id": "7MS1VeRusyY",
-    "thumbnail_image": "https://img.youtube.com/vi/7MS1VeRusyY/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 87 - EL CORTIJO",
-    "youtube_video_id": "FXuHGlMaFrI",
-    "thumbnail_image": "https://img.youtube.com/vi/FXuHGlMaFrI/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 88 - EL CORTIJO",
-    "youtube_video_id": "z2oeHh_TtsA",
-    "thumbnail_image": "https://img.youtube.com/vi/z2oeHh_TtsA/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 89 - EL VOLCAN",
-    "youtube_video_id": "888cjSVBhso",
-    "thumbnail_image": "https://img.youtube.com/vi/888cjSVBhso/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 90 - ARANDÚ",
-    "youtube_video_id": "X8kNX4ht42c",
-    "thumbnail_image": "https://img.youtube.com/vi/X8kNX4ht42c/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 91 - ARANDÚ",
-    "youtube_video_id": "6QUBdD9fjo4",
-    "thumbnail_image": "https://img.youtube.com/vi/6QUBdD9fjo4/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 92 - ARANDÚ",
-    "youtube_video_id": "1qCIxDYGGTQ",
-    "thumbnail_image": "https://img.youtube.com/vi/1qCIxDYGGTQ/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 93 - ARANDÚ",
-    "youtube_video_id": "utsIgXZ1dnY",
-    "thumbnail_image": "https://img.youtube.com/vi/utsIgXZ1dnY/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 94 - ARANDÚ",
-    "youtube_video_id": "ptZPjFUubsU",
-    "thumbnail_image": "https://img.youtube.com/vi/ptZPjFUubsU/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 95 - SANTA MONICA",
-    "youtube_video_id": "Fuai5MhdTn8",
-    "thumbnail_image": "https://img.youtube.com/vi/Fuai5MhdTn8/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 96 - SANTA MONICA",
-    "youtube_video_id": "8muhNgCJzpo",
-    "thumbnail_image": "https://img.youtube.com/vi/8muhNgCJzpo/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 97 - SANTA MONICA",
-    "youtube_video_id": "IKITOcFvlk8",
-    "thumbnail_image": "https://img.youtube.com/vi/IKITOcFvlk8/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 98 - SANTA MONICA",
-    "youtube_video_id": "hAyEAikv6pA",
-    "thumbnail_image": "https://img.youtube.com/vi/hAyEAikv6pA/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 99 - ARANDÚ",
-    "youtube_video_id": "oqWN0B7KkNI",
-    "thumbnail_image": "https://img.youtube.com/vi/oqWN0B7KkNI/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 100 - SANTA MONICA",
-    "youtube_video_id": "9ZyFTJBRdXo",
-    "thumbnail_image": "https://img.youtube.com/vi/9ZyFTJBRdXo/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 101 - SANTA MONICA",
-    "youtube_video_id": "dK23vgcM4Hs",
-    "thumbnail_image": "https://img.youtube.com/vi/dK23vgcM4Hs/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 102 - SANTA MONICA",
-    "youtube_video_id": "oUfvLq7-k30",
-    "thumbnail_image": "https://img.youtube.com/vi/oUfvLq7-k30/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 103 - SANTA MONICA",
-    "youtube_video_id": "jnwL4XAeDw0",
-    "thumbnail_image": "https://img.youtube.com/vi/jnwL4XAeDw0/mqdefault.jpg",
-    "category": "VACAS PREÑADAS M.A.S."
-  },
-  {
-    "name": "LOTE N° 104 - ARANDÚ",
-    "youtube_video_id": "J3Wfpf1w8Hs",
-    "thumbnail_image": "https://img.youtube.com/vi/J3Wfpf1w8Hs/mqdefault.jpg",
-    "category": "VAQUILLONAS PREÑADAS GRAL."
-  },
-  {
-    "name": "LOTE N° 105 - SANTA MONICA",
-    "youtube_video_id": "2wx4MJIWlvU",
-    "thumbnail_image": "https://img.youtube.com/vi/2wx4MJIWlvU/mqdefault.jpg",
-    "category": "VACAS PREÑADAS GRAL."
-  },
-  {
-    "name": "LOTE N° 106 - SANTA MONICA",
-    "youtube_video_id": "dW2J54CYBdI",
-    "thumbnail_image": "https://img.youtube.com/vi/dW2J54CYBdI/mqdefault.jpg",
-    "category": "VACAS PREÑADAS GRAL."
-  },
-  {
-    "name": "LOTE N° 107 - ARANDÚ",
-    "youtube_video_id": "jwGoOVj3I1Y",
-    "thumbnail_image": "https://img.youtube.com/vi/jwGoOVj3I1Y/mqdefault.jpg",
-    "category": "VACAS PREÑADAS GRAL."
-  },
-  {
-    "name": "LOTE N° 108 - ARANDÚ",
-    "youtube_video_id": "HM7WdOoQq0U",
-    "thumbnail_image": "https://img.youtube.com/vi/HM7WdOoQq0U/mqdefault.jpg",
-    "category": "VACAS PREÑADAS GRAL."
-  },
-  {
-    "name": "LOTE N° 109 - ARANDÚ",
-    "youtube_video_id": "DHlgudB3uSU",
-    "thumbnail_image": "https://img.youtube.com/vi/DHlgudB3uSU/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 110 - ARANDÚ",
-    "youtube_video_id": "5UA0VyD38vU",
-    "thumbnail_image": "https://img.youtube.com/vi/5UA0VyD38vU/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 111 - ARANDÚ",
-    "youtube_video_id": "bX10hHldU2Y",
-    "thumbnail_image": "https://img.youtube.com/vi/bX10hHldU2Y/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 112 - ARANDÚ",
-    "youtube_video_id": "HpXydORpkBM",
-    "thumbnail_image": "https://img.youtube.com/vi/HpXydORpkBM/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 113 - ARANDÚ",
-    "youtube_video_id": "vm6_DdeMsQE",
-    "thumbnail_image": "https://img.youtube.com/vi/vm6_DdeMsQE/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 114 - ARANDÚ",
-    "youtube_video_id": "1ZvT2CtYqk8",
-    "thumbnail_image": "https://img.youtube.com/vi/1ZvT2CtYqk8/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 115 - ARANDÚ",
-    "youtube_video_id": "rh2iEEH5JJk",
-    "thumbnail_image": "https://img.youtube.com/vi/rh2iEEH5JJk/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 116 - ARANDU",
-    "youtube_video_id": "WPb9pYfT8b0",
-    "thumbnail_image": "https://img.youtube.com/vi/WPb9pYfT8b0/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 117 - LA RESERVA",
-    "youtube_video_id": "bNIK1vSp8m4",
-    "thumbnail_image": "https://img.youtube.com/vi/bNIK1vSp8m4/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 118 - LA RESERVA",
-    "youtube_video_id": "P6Uv1ZR3OVI",
-    "thumbnail_image": "https://img.youtube.com/vi/P6Uv1ZR3OVI/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 119 - LA RESERVA",
-    "youtube_video_id": "TDC81SJ1AKE",
-    "thumbnail_image": "https://img.youtube.com/vi/TDC81SJ1AKE/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 120 - EL PORVENIR",
-    "youtube_video_id": "m82pcFu7b2Y",
-    "thumbnail_image": "https://img.youtube.com/vi/m82pcFu7b2Y/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 121 - EL PORVENIR",
-    "youtube_video_id": "gAPNtGKCSxg",
-    "thumbnail_image": "https://img.youtube.com/vi/gAPNtGKCSxg/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 122 - EL PORVENIR",
-    "youtube_video_id": "P99gHMJn0nA",
-    "thumbnail_image": "https://img.youtube.com/vi/P99gHMJn0nA/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 123 - EL PORVENIR",
-    "youtube_video_id": "cHz63uZSuCM",
-    "thumbnail_image": "https://img.youtube.com/vi/cHz63uZSuCM/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 124 - EL PORVENIR",
-    "youtube_video_id": "AB7vkdNVqrQ",
-    "thumbnail_image": "https://img.youtube.com/vi/AB7vkdNVqrQ/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
-  },
-  {
-    "name": "LOTE N° 125 - EL PORVENIR",
-    "youtube_video_id": "fPC3vwr1urU",
-    "thumbnail_image": "https://img.youtube.com/vi/fPC3vwr1urU/mqdefault.jpg",
-    "category": "VAQUILLONAS SIN SERVICIO P.C."
+    "title": "VIERNES 22",
+    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
+    "image": "assets/remates/viernes2.jpeg",
+    "type": "image"
   }
 ]
