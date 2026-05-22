@@ -1,122 +1,38 @@
 [
   {
-    "title": "LUNES 18",
-    "category": "AGENDA DE ACTIVIDADES",
-    "image": "assets/agenda/lunes.jpeg",
+    "title": "VENTA DE CAMPEONES",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/1.jpeg",
     "type": "image"
   },
   {
-    "title": "MARTES 19",
-    "category": "AGENDA DE ACTIVIDADES",
-    "image": "assets/agenda/martes.jpeg",
+    "title": "ACCESO ZOOM",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/2.jpeg",
     "type": "image"
   },
   {
-    "title": "MIERCOLES 20",
-    "category": "AGENDA DE ACTIVIDADES",
-    "image": "assets/agenda/miercoles.jpeg",
+    "title": "PLAZO 90 DÍAS",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/3.jpeg",
     "type": "image"
   },
   {
-    "title": "JUEVES 21",
-    "category": "AGENDA DE ACTIVIDADES",
-    "image": "assets/agenda/jueves.jpeg",
+    "title": "BOX 151 – TERCER MEJOR HEMBRA COLORADA",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/4.jpeg",
     "type": "image"
   },
   {
-    "title": "VIERNES 22",
-    "category": "AGENDA DE ACTIVIDADES",
-    "image": "assets/agenda/viernes.jpeg",
+    "title": "BOX 528 – TERCER MEJOR TERNERO NEGRO",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/5.jpeg",
     "type": "image"
   },
   {
-    "title": "LUNES 18 - CAMINO DE LOS CAMPEONES",
-    "category": "ACTIVIDADES ESPECIALES",
-    "image": "assets/especiales/1.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MARTES 19 - SELECCIÓN DE HEMBRAS",
-    "category": "ACTIVIDADES ESPECIALES",
-    "image": "assets/especiales/2.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "A PARTIR DEL MARTES 19 - MINI ANGUS",
-    "category": "ACTIVIDADES ESPECIALES",
-    "image": "assets/especiales/3.jpeg",
-    "type": "image"
-  },
-    {
-    "title": "JUEVES 21 - EQUINOTERAPIA EL ZORZAL",
-    "category": "ACTIVIDADES ESPECIALES",
-    "image": "assets/especiales/4.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "LUNES 18",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/lunes.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MARTES 19",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/martes1.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MARTES 19",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/martes2.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MARTES 19",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/martes3.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MIERCOLES 20",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/miercoles1.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MIERCOLES 20",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/miercoles2.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "MIERCOLES 20",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/miercoles3.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "JUEVES 21",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/jueves.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "JUEVES 21",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/jueves2.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "VIERNES 22",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/viernes1.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "VIERNES 22",
-    "category": "REMATES DE LA 83 EXPOANGUS DE OTOÑO",
-    "image": "assets/remates/viernes2.jpeg",
+    "title": "BOX 555 – MEJOR TERNERO NEGRO DE LA EXPOSICIÓN",
+    "category": "VENTA DE CAMPEONES",
+    "image": "assets/campeones/6.jpeg",
     "type": "image"
   }
 ]
