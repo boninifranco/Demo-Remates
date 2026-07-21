@@ -1,17 +1,135 @@
 [
   {
-    "title": "AGENDA ANGUS – EXPO RURAL 26",
-    "image": "assets/exporural/1.jpeg",
+    "title": "EXPO RURAL 2026",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/VZ_ExpoRural_384x640.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "ANGUS DEL SALADO",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/ANGUSDELSALADO-640x384.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "ANGUS",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Angus_2_5_x_1_5.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "CABAÑA EL CERRO",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/CABAÑA_EL_CERRO__384_x_640_px.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "SPOT RURAL",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Spot_rural_1.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "TERRAGARBA",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/TERRAGARBA_VERTICAL.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "PANTALLA VERTICAL",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/pantalla_vertical.mp4",
+    "orientation": "vertical",
+    "type": "video-local"
+  },
+  {
+    "title": "TRES MARÍAS",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/pantalla-640x384_jpg.jpeg",
+    "orientation": "horizontal",
     "type": "image"
   },
   {
-    "title": "MARTES 21, MIÉRCOLES 22 Y JUEVES 23",
-    "image": "assets/exporural/2.jpeg",
-    "type": "image"
+    "title": "CASAMU",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/1280x768-CASAMU.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
   },
   {
-    "title": "VIERNES 24 Y SÁBADO 25",
-    "image": "assets/exporural/3.jpeg",
-    "type": "image"
+    "title": "LA LEGUA – ARMÓNICO",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Auspicio_La_Legua_Expo_Palermo_2026_-_armonico__5x3_.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "LA LEGUA – NÚMEROS",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Auspicio_La_Legua_Expo_Palermo_2026_-_numeros__5x3_.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "DON FLORENCIO",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/DON_FLORENCIO_PALERMO_640x384.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "GANANOR PUJOL",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Gananor_Pujol_Stand_Palermo_640x384.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "HUACA CURÚ",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/HUACA_CURU_PALERMO_640x384.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "LA BARRANCOSA",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/LA_BARRANCOSA_640x384.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "LA INDIANA",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/La_indiana_640x384_px.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "LA TORCACITA",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/La_Torcacita_640_x_384__.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "ROSGAN",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/Pantalla_640x384_ROSGAN.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
+  },
+  {
+    "title": "8 DE OCTUBRE 2026",
+    "category": "EXPO RURAL 26",
+    "file": "assets/videos/REESCALADO_640_8_DE_OCT_2026.mp4",
+    "orientation": "horizontal",
+    "type": "video-local"
   }
 ]
