@@ -1,6 +1,27 @@
 [
+    {
+    "title": "AGENDA ANGUS – EXPO RURAL 26",
+    "category": "AGENDA ANGUS",
+    "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/1.jpeg",
+    "orientation": "vertical",
+    "type": "image"
+  },
   {
-    "title": "EXPO RURAL 2026",
+    "title": "MARTES 21, MIÉRCOLES 22 Y JUEVES 23",
+    "category": "AGENDA ANGUS",
+    "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/2.jpeg",
+    "orientation": "vertical",
+    "type": "image"
+  },
+  {
+    "title": "VIERNES 24 Y SÁBADO 25",
+    "category": "AGENDA ANGUS",
+    "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/3.jpeg",
+    "orientation": "vertical",
+    "type": "image"
+  },
+  {
+    "title": "EL VIEJO ZORZAL",
     "category": "EXPO RURAL 26",
     "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/VZ_ExpoRural_384x640.mp4",
     "orientation": "vertical",
@@ -14,7 +35,7 @@
     "type": "video-local"
   },
   {
-    "title": "ANGUS",
+    "title": "MADELAN",
     "category": "EXPO RURAL 26",
     "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/Angus%202.5%20x%201.5.mp4",
     "orientation": "vertical",
@@ -28,7 +49,7 @@
     "type": "video-local"
   },
   {
-    "title": "SPOT RURAL",
+    "title": "LOS CERRITOS",
     "category": "EXPO RURAL 26",
     "file": "https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/Spot%20rural%201.mp4",
     "orientation": "vertical",

@@ -1,6 +1,7 @@
 let bovinosData = [];
 
 const ORDERED_CATEGORIES = [
+  "AGENDA ANGUS",
   "EXPO RURAL 26"
 ];
 
@@ -44,7 +45,6 @@ function renderSectionsByCategory(items) {
   for (const cat of [...orderedFirst, ...remaining]) {
     const arr = groups.get(cat) || [];
 
-    // Separar verticales y horizontales
     const verticales = arr.filter(i => i.orientation === 'vertical');
     const horizontales = arr.filter(i => i.orientation === 'horizontal');
 
@@ -57,7 +57,6 @@ function renderSectionsByCategory(items) {
     h2.textContent = cat;
     section.appendChild(h2);
 
-    // Bloque verticales
     if (verticales.length > 0) {
       const label = document.createElement('p');
       label.className = 'orientation-label';
@@ -73,7 +72,6 @@ function renderSectionsByCategory(items) {
       section.appendChild(grid);
     }
 
-    // Bloque horizontales
     if (horizontales.length > 0) {
       const label = document.createElement('p');
       label.className = 'orientation-label';
@@ -108,12 +106,10 @@ function createCard(item) {
     img.loading = 'lazy';
     wrapper.appendChild(img);
   } else {
-    // video-local: thumbnail con icono play
     const video = document.createElement('video');
     video.src = item.file;
     video.muted = true;
     video.preload = 'metadata';
-    // Mostrar primer frame
     video.addEventListener('loadedmetadata', () => { video.currentTime = 0.5; });
     wrapper.appendChild(video);
 
@@ -155,7 +151,6 @@ function slugify(str) {
     .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
-// ── Lightbox ──
 function openLightbox(item) {
   const lb = document.getElementById('flyer-lightbox');
   const vid = document.getElementById('lightbox-video');
