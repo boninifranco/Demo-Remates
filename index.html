@@ -3,33 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>83 EXPOANGUS OTOÑO INDOOR</title>
+    <title>EXPO RURAL 26 – AGENDA ANGUS</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-title">
-        <span class="site-title__number">83</span>
-        <div class="site-title__text">
-          <span class="site-title__expo">EXPO<strong>ANGUS</strong></span>
-          <span class="site-title__sub">OTOÑO INDOOR</span>
-        </div>
-      </div>
-      <nav id="categories-nav" class="categories-nav"></nav>
-    </header>
 
-    <main class="general-container">
-      <div class="video-player-container">
-        <div id="youtube-player"></div>
-        <div class="click-overlay"></div>
+    <!-- Slideshow fullscreen -->
+    <div id="slideshow">
+      <div id="slide-img-wrapper">
+        <img id="slide-img" src="" alt="" />
       </div>
 
-      <!-- NUEVO: secciones por categoría -->
-      <div id="bovino-sections" class="sections-container"></div>
-    </main>
+      <!-- Indicadores -->
+      <div id="slide-dots"></div>
 
-    <script src="https://www.youtube.com/iframe_api"></script>
+      <!-- Controles manuales -->
+      <button class="slide-btn" id="btn-prev">&#8249;</button>
+      <button class="slide-btn" id="btn-next">&#8250;</button>
+
+      <!-- Barra de progreso -->
+      <div id="progress-bar"><div id="progress-fill"></div></div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

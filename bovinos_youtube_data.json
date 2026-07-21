@@ -1,38 +1,17 @@
 [
   {
-    "title": "VENTA DE CAMPEONES",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/1.jpeg",
+    "title": "AGENDA ANGUS – EXPO RURAL 26",
+    "image": "assets/exporural/1.jpeg",
     "type": "image"
   },
   {
-    "title": "ACCESO ZOOM",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/2.jpeg",
+    "title": "MARTES 21, MIÉRCOLES 22 Y JUEVES 23",
+    "image": "assets/exporural/2.jpeg",
     "type": "image"
   },
   {
-    "title": "PLAZO 90 DÍAS",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/3.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "BOX 151 – TERCER MEJOR HEMBRA COLORADA",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/4.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "BOX 528 – TERCER MEJOR TERNERO NEGRO",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/5.jpeg",
-    "type": "image"
-  },
-  {
-    "title": "BOX 555 – MEJOR TERNERO NEGRO DE LA EXPOSICIÓN",
-    "category": "VENTA DE CAMPEONES",
-    "image": "assets/campeones/6.jpeg",
+    "title": "VIERNES 24 Y SÁBADO 25",
+    "image": "assets/exporural/3.jpeg",
     "type": "image"
   }
 ]
