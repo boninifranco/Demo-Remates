@@ -23,13 +23,16 @@
       <div id="bovino-sections" class="sections-container"></div>
     </main>
 
-    <!-- Lightbox para video/imagen fullscreen -->
+    <!-- Lightbox -->
     <div id="flyer-lightbox">
       <div class="lightbox-backdrop"></div>
       <div class="lightbox-content">
         <button class="lightbox-close" aria-label="Cerrar">✕</button>
         <video id="lightbox-video" controls autoplay playsinline style="display:none"></video>
         <img id="lightbox-img" src="" alt="" style="display:none" />
+        <iframe id="lightbox-iframe" src="" frameborder="0" allowfullscreen
+          allow="autoplay; encrypted-media"
+          style="display:none; width:100vw; height:100vh;"></iframe>
       </div>
     </div>
 

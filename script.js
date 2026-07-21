@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderSectionsByCategory(bovinosData);
   buildCategoriesNav(bovinosData);
 
-  // Lightbox listeners
   document.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
   document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
@@ -44,7 +43,6 @@ function renderSectionsByCategory(items) {
 
   for (const cat of [...orderedFirst, ...remaining]) {
     const arr = groups.get(cat) || [];
-
     const verticales = arr.filter(i => i.orientation === 'vertical');
     const horizontales = arr.filter(i => i.orientation === 'horizontal');
 
@@ -105,7 +103,21 @@ function createCard(item) {
     img.alt = item.title;
     img.loading = 'lazy';
     wrapper.appendChild(img);
-  } else {
+
+  } else if (item.type === 'video-youtube') {
+    // Thumbnail de YouTube
+    const img = document.createElement('img');
+    img.src = `https://img.youtube.com/vi/${item.youtube_video_id}/mqdefault.jpg`;
+    img.alt = item.title;
+    img.loading = 'lazy';
+    wrapper.appendChild(img);
+
+    const playIcon = document.createElement('div');
+    playIcon.className = 'play-icon';
+    playIcon.innerHTML = '▶';
+    wrapper.appendChild(playIcon);
+
+  } else if (item.type === 'video-local') {
     const video = document.createElement('video');
     video.src = item.file;
     video.muted = true;
@@ -124,7 +136,6 @@ function createCard(item) {
 
   card.appendChild(wrapper);
   card.appendChild(h3);
-
   card.addEventListener('click', () => openLightbox(item));
   return card;
 }
@@ -151,20 +162,32 @@ function slugify(str) {
     .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+// ── Lightbox ──
 function openLightbox(item) {
   const lb = document.getElementById('flyer-lightbox');
   const vid = document.getElementById('lightbox-video');
   const img = document.getElementById('lightbox-img');
+  const frame = document.getElementById('lightbox-iframe');
+
+  // Limpiar todo
+  vid.style.display = 'none';
+  vid.pause();
+  vid.src = '';
+  img.style.display = 'none';
+  img.src = '';
+  frame.style.display = 'none';
+  frame.src = '';
 
   if (item.type === 'image') {
-    vid.style.display = 'none';
-    vid.src = '';
     img.src = item.file;
     img.alt = item.title;
     img.style.display = 'block';
-  } else {
-    img.style.display = 'none';
-    img.src = '';
+
+  } else if (item.type === 'video-youtube') {
+    frame.src = `https://www.youtube.com/embed/${item.youtube_video_id}?autoplay=1&rel=0&modestbranding=1`;
+    frame.style.display = 'block';
+
+  } else if (item.type === 'video-local') {
     vid.src = item.file;
     vid.style.display = 'block';
     vid.play();
@@ -177,8 +200,11 @@ function openLightbox(item) {
 function closeLightbox() {
   const lb = document.getElementById('flyer-lightbox');
   const vid = document.getElementById('lightbox-video');
+  const frame = document.getElementById('lightbox-iframe');
+
   lb.classList.remove('active');
   vid.pause();
   vid.src = '';
+  frame.src = ''; // detiene el video de YouTube
   document.body.style.overflow = '';
 }
