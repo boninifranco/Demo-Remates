@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EXPO RURAL 26 – ANGUS</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="site-header">
@@ -13,7 +16,10 @@
         <span class="site-title__number">26</span>
         <div class="site-title__text">
           <span class="site-title__expo">EXPO<strong>RURAL</strong></span>
-          <span class="site-title__sub">138° EXPOSICIÓN DE GANADERÍA, AGRICULTURA E INDUSTRIA INTERNACIONAL</span>
+          <span class="site-title__sub"
+            >138° EXPOSICIÓN DE GANADERÍA, AGRICULTURA E INDUSTRIA
+            INTERNACIONAL</span
+          >
         </div>
       </div>
       <nav id="categories-nav" class="categories-nav"></nav>
@@ -23,7 +29,7 @@
       <div class="main-layout">
         <div id="bovino-sections" class="sections-container"></div>
 
-        <!-- Panel QR fijo a la derecha -->
+       <div class="qrpanel-container"> <!-- Panel QR fijo a la derecha -->
         <aside class="qr-panel">
           <p class="qr-label">INGRESÁ A LA</p>
           <p class="qr-label qr-label--big">TRANSMISIÓN EN VIVO</p>
@@ -31,15 +37,38 @@
             <!-- QR generado via API pública, apunta a la imagen del QR -->
             <img
               src="https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/qr_orden_jura.jpeg"
-              alt="QR Orden de Jura"
+              alt="QR Transmisión en Vivo"
               class="qr-img"
-              onerror="this.style.display='none'; document.getElementById('qr-fallback').style.display='flex';"
+              onerror="
+                this.style.display = 'none';
+                document.getElementById('qr-fallback').style.display = 'flex';
+              "
             />
-            <div id="qr-fallback" class="qr-fallback" style="display:none">
+            <div id="qr-fallback" class="qr-fallback" style="display: none">
               <span>QR no disponible</span>
             </div>
           </div>
         </aside>
+        <aside class="qr-panel">
+          <p class="qr-label">ESCANEÁ LA</p>
+          <p class="qr-label qr-label--big">ORDEN DE JURA</p>
+          <div class="qr-code-wrapper">
+            <!-- QR generado via API pública, apunta a la imagen del QR -->
+            <img
+              src="https://pub-ce3793bae9b94720b5d5c8b99eba9a40.r2.dev/qr_orden_jura2.png"
+              alt="QR Orden de Jura"
+              class="qr-img"
+              onerror="
+                this.style.display = 'none';
+                document.getElementById('qr-fallback').style.display = 'flex';
+              "
+            />
+            <div id="qr-fallback" class="qr-fallback" style="display: none">
+              <span>QR no disponible</span>
+            </div>
+          </div>
+        </aside>
+        </div>
       </div>
     </main>
 
@@ -48,11 +77,22 @@
       <div class="lightbox-backdrop"></div>
       <div class="lightbox-content">
         <button class="lightbox-close" aria-label="Cerrar">✕</button>
-        <video id="lightbox-video" controls autoplay playsinline style="display:none"></video>
-        <img id="lightbox-img" src="" alt="" style="display:none" />
-        <iframe id="lightbox-iframe" src="" frameborder="0" allowfullscreen
+        <video
+          id="lightbox-video"
+          controls
+          autoplay
+          playsinline
+          style="display: none"
+        ></video>
+        <img id="lightbox-img" src="" alt="" style="display: none" />
+        <iframe
+          id="lightbox-iframe"
+          src=""
+          frameborder="0"
+          allowfullscreen
           allow="autoplay; encrypted-media"
-          style="display:none; width:100vw; height:100vh;"></iframe>
+          style="display: none; width: 100vw; height: 100vh"
+        ></iframe>
       </div>
     </div>
 
