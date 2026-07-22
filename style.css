@@ -154,20 +154,11 @@ body {
   margin: 12px 0 10px;
 }
 
-/* ── Grillas ── */
+/* ── Grilla única ── */
 .category-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px;
-}
-
-/* Verticales: cards más angostas */
-.category-grid--vertical {
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-}
-
-/* Horizontales: cards más anchas */
-.category-grid--horizontal {
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 /* ── Cards ── */
@@ -293,4 +284,87 @@ body {
 
 .lightbox-close:hover {
   background: rgba(255,255,255,0.25);
+}
+
+/* ── Layout principal con QR ── */
+.main-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  width: 95%;
+  max-width: 1600px;
+}
+
+.sections-container {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Panel QR ── */
+.qr-panel {
+  width: 340px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: sticky;
+  top: 20px;
+  text-align: center;
+}
+
+.qr-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #003d15;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.qr-label--big {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: #001f0a;
+}
+
+.qr-code-wrapper {
+  width: 300px;
+  height: 300px;
+  margin: 8px 0;
+  border: 3px solid #003d15;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.qr-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.qr-fallback {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.qr-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: #888;
+  margin: 0;
+  letter-spacing: 1px;
 }

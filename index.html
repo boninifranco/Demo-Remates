@@ -20,7 +20,27 @@
     </header>
 
     <main class="general-container">
-      <div id="bovino-sections" class="sections-container"></div>
+      <div class="main-layout">
+        <div id="bovino-sections" class="sections-container"></div>
+
+        <!-- Panel QR fijo a la derecha -->
+        <aside class="qr-panel">
+          <p class="qr-label">ESCANEÁ LA</p>
+          <p class="qr-label qr-label--big">ORDEN DE JURA</p>
+          <div class="qr-code-wrapper">
+            <!-- QR generado via API pública, apunta a la imagen del QR -->
+            <img
+              src="/assets/qr_orden_jura.jpeg"
+              alt="QR Orden de Jura"
+              class="qr-img"
+              onerror="this.style.display='none'; document.getElementById('qr-fallback').style.display='flex';"
+            />
+            <div id="qr-fallback" class="qr-fallback" style="display:none">
+              <span>QR no disponible</span>
+            </div>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <!-- Lightbox -->

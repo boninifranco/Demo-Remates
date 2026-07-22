@@ -43,9 +43,6 @@ function renderSectionsByCategory(items) {
 
   for (const cat of [...orderedFirst, ...remaining]) {
     const arr = groups.get(cat) || [];
-    const verticales = arr.filter(i => i.orientation === 'vertical');
-    const horizontales = arr.filter(i => i.orientation === 'horizontal');
-
     const section = document.createElement('section');
     section.className = 'category-section';
     section.id = slugify(cat);
@@ -55,35 +52,13 @@ function renderSectionsByCategory(items) {
     h2.textContent = cat;
     section.appendChild(h2);
 
-    if (verticales.length > 0) {
-      const label = document.createElement('p');
-      label.className = 'orientation-label';
-      label.textContent = '▸ VERTICALES';
-      section.appendChild(label);
-
-      const grid = document.createElement('div');
-      grid.className = 'category-grid category-grid--vertical';
-      verticales.forEach(item => {
-        const card = createCard(item);
-        if (card) grid.appendChild(card);
-      });
-      section.appendChild(grid);
-    }
-
-    if (horizontales.length > 0) {
-      const label = document.createElement('p');
-      label.className = 'orientation-label';
-      label.textContent = '▸ HORIZONTALES';
-      section.appendChild(label);
-
-      const grid = document.createElement('div');
-      grid.className = 'category-grid category-grid--horizontal';
-      horizontales.forEach(item => {
-        const card = createCard(item);
-        if (card) grid.appendChild(card);
-      });
-      section.appendChild(grid);
-    }
+    const grid = document.createElement('div');
+    grid.className = 'category-grid';
+    arr.forEach(item => {
+      const card = createCard(item);
+      if (card) grid.appendChild(card);
+    });
+    section.appendChild(grid);
 
     container.appendChild(section);
   }
