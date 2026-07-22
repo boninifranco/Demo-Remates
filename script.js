@@ -2,7 +2,7 @@ let bovinosData = [];
 
 const ORDERED_CATEGORIES = [
   "AGENDA ANGUS",
-  "EXPO RURAL 26"
+  "EXPO RURAL 26 - ANUNCIOS"
 ];
 
 document.addEventListener('DOMContentLoaded', async () => {
