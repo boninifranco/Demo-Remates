@@ -1,8 +1,19 @@
 let bovinosData = [];
+let ytPlayer = null;
+let ytAPIReady = false;
+let currentIndex = -1;
+let flatList = [];
+let imageTimer = null; // timer para autoavance de imágenes
 
 const ORDERED_CATEGORIES = [
+  "AGENDA ANGUS",
   "EXPO RURAL 26 - ANUNCIOS"
 ];
+
+// ── YouTube IFrame API ──
+function onYouTubeIframeAPIReady() {
+  ytAPIReady = true;
+}
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
@@ -14,12 +25,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
+  // Lista plana para navegación secuencial
+  flatList = bovinosData;
+
   renderSectionsByCategory(bovinosData);
   buildCategoriesNav(bovinosData);
 
   document.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
   document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  document.getElementById('btn-prev').addEventListener('click', () => goTo(currentIndex - 1));
+  document.getElementById('btn-next').addEventListener('click', () => goTo(currentIndex + 1));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') goTo(currentIndex + 1);
+    if (e.key === 'ArrowLeft') goTo(currentIndex - 1);
+  });
 });
 
 function groupByCategory(items) {
@@ -58,7 +78,6 @@ function renderSectionsByCategory(items) {
       if (card) grid.appendChild(card);
     });
     section.appendChild(grid);
-
     container.appendChild(section);
   }
 }
@@ -79,7 +98,6 @@ function createCard(item) {
     wrapper.appendChild(img);
 
   } else if (item.type === 'video-youtube') {
-    // Thumbnail de YouTube
     const img = document.createElement('img');
     img.src = `https://img.youtube.com/vi/${item.youtube_video_id}/mqdefault.jpg`;
     img.alt = item.title;
@@ -107,10 +125,11 @@ function createCard(item) {
 
   const h3 = document.createElement('h3');
   h3.textContent = item.title;
-
   card.appendChild(wrapper);
   card.appendChild(h3);
-  card.addEventListener('click', () => openLightbox(item));
+
+  const idx = flatList.indexOf(item);
+  card.addEventListener('click', () => openLightbox(idx));
   return card;
 }
 
@@ -136,12 +155,22 @@ function slugify(str) {
     .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+// ── Navegación ──
+function goTo(index) {
+  if (index < 0) index = flatList.length - 1;
+  if (index >= flatList.length) index = 0;
+  openLightbox(index);
+}
+
 // ── Lightbox ──
-function openLightbox(item) {
+function openLightbox(index) {
+  currentIndex = index;
+  const item = flatList[index];
+
   const lb = document.getElementById('flyer-lightbox');
   const vid = document.getElementById('lightbox-video');
   const img = document.getElementById('lightbox-img');
-  const frame = document.getElementById('lightbox-iframe');
+  const ytContainer = document.getElementById('yt-player-container');
 
   // Limpiar todo
   vid.style.display = 'none';
@@ -149,22 +178,53 @@ function openLightbox(item) {
   vid.src = '';
   img.style.display = 'none';
   img.src = '';
-  frame.style.display = 'none';
-  frame.src = '';
+  ytContainer.style.display = 'none';
+
+  // Cancelar timer de imagen anterior si existe
+  if (imageTimer) { clearTimeout(imageTimer); imageTimer = null; }
+
+  // Destruir player anterior si existe
+  if (ytPlayer) {
+    try { ytPlayer.destroy(); } catch(e) {}
+    ytPlayer = null;
+    ytContainer.innerHTML = '<div id="yt-player"></div>';
+  }
 
   if (item.type === 'image') {
     img.src = item.file;
     img.alt = item.title;
     img.style.display = 'block';
+    // Autoavance a los 20 segundos
+    imageTimer = setTimeout(() => goTo(currentIndex + 1), 15000);
 
   } else if (item.type === 'video-youtube') {
-    frame.src = `https://www.youtube.com/embed/${item.youtube_video_id}?autoplay=1&rel=0&modestbranding=1`;
-    frame.style.display = 'block';
+    ytContainer.style.display = 'block';
+
+    if (ytAPIReady) {
+      ytPlayer = new YT.Player('yt-player', {
+        videoId: item.youtube_video_id,
+        playerVars: {
+          autoplay: 1,
+          rel: 0,
+          modestbranding: 1,
+          controls: 1
+        },
+        events: {
+          onStateChange: (e) => {
+            // Cuando termina el video, pasa al siguiente
+            if (e.data === YT.PlayerState.ENDED) {
+              goTo(currentIndex + 1);
+            }
+          }
+        }
+      });
+    }
 
   } else if (item.type === 'video-local') {
     vid.src = item.file;
     vid.style.display = 'block';
     vid.play();
+    vid.onended = () => goTo(currentIndex + 1);
   }
 
   lb.classList.add('active');
@@ -174,11 +234,21 @@ function openLightbox(item) {
 function closeLightbox() {
   const lb = document.getElementById('flyer-lightbox');
   const vid = document.getElementById('lightbox-video');
-  const frame = document.getElementById('lightbox-iframe');
+  const ytContainer = document.getElementById('yt-player-container');
 
   lb.classList.remove('active');
   vid.pause();
   vid.src = '';
-  frame.src = ''; // detiene el video de YouTube
+
+  if (imageTimer) { clearTimeout(imageTimer); imageTimer = null; }
+
+  if (ytPlayer) {
+    try { ytPlayer.destroy(); } catch(e) {}
+    ytPlayer = null;
+    ytContainer.innerHTML = '<div id="yt-player"></div>';
+  }
+
+  ytContainer.style.display = 'none';
   document.body.style.overflow = '';
+  currentIndex = -1;
 }
