@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   font-family: sans-serif;
@@ -22,7 +20,7 @@ body {
   gap: 12px;
   align-items: center;
   background: linear-gradient(160deg, #001f0a 0%, #003d15 60%, #001a2e 100%);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
 }
 
 .site-title {
@@ -45,13 +43,11 @@ body {
 }
 
 .site-title__number {
-  font-family: "Bebas Neue", "Arial Black", sans-serif;
+  font-family: 'Bebas Neue', 'Arial Black', sans-serif;
   font-size: clamp(4rem, 10vw, 7rem);
   line-height: 1;
   color: #4fc3f7;
-  text-shadow:
-    0 0 40px rgba(79, 195, 247, 0.5),
-    2px 2px 0 rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 40px rgba(79,195,247,0.5), 2px 2px 0 rgba(0,0,0,0.6);
   letter-spacing: -2px;
 }
 
@@ -62,7 +58,7 @@ body {
 }
 
 .site-title__expo {
-  font-family: "Bebas Neue", "Arial Black", sans-serif;
+  font-family: 'Bebas Neue', 'Arial Black', sans-serif;
   font-size: clamp(2rem, 6vw, 4.2rem);
   line-height: 1;
   color: #fff;
@@ -75,11 +71,11 @@ body {
 }
 
 .site-title__sub {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.65rem, 1.8vw, 0.9rem);
   font-weight: 700;
   letter-spacing: 5px;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255,255,255,0.55);
   text-transform: uppercase;
 }
 
@@ -95,15 +91,15 @@ body {
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(79, 195, 247, 0.4);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(79,195,247,0.4);
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255,255,255,0.85);
   transition: background 0.15s;
 }
 
 .categories-nav a:hover {
-  background: rgba(79, 195, 247, 0.15);
+  background: rgba(79,195,247,0.15);
   border-color: #4fc3f7;
   color: #fff;
 }
@@ -129,7 +125,7 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 18px 20px 24px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
 }
 
 .category-title {
@@ -163,6 +159,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px;
+  align-items: start;
 }
 
 /* ── Cards ── */
@@ -171,16 +168,25 @@ body {
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+  transition: transform 0.2s, box-shadow 0.2s;
   text-align: center;
+}
+
+/* Verticales: max-width para que no se estiren */
+.bovino-item--vertical {
+  max-width: 220px;
+  justify-self: center;
+}
+
+/* Horizontales: ocupan el ancho completo de la columna */
+.bovino-item--horizontal {
+  max-width: 100%;
 }
 
 .bovino-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 18px rgba(0,0,0,.15);
 }
 
 .bovino-item h3 {
@@ -224,14 +230,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.85);
-  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255,255,255,0.85);
+  background: rgba(0,0,0,0.25);
   transition: background 0.2s;
   pointer-events: none;
 }
 
 .bovino-item:hover .play-icon {
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0,0,0,0.45);
 }
 
 /* ── Lightbox ── */
@@ -251,7 +257,7 @@ body {
 .lightbox-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0,0,0,0.92);
 }
 
 .lightbox-content {
@@ -276,7 +282,7 @@ body {
   position: fixed;
   top: 16px;
   right: 16px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.6);
   border: none;
   color: #fff;
   font-size: 2rem;
@@ -289,7 +295,7 @@ body {
 }
 
 .lightbox-close:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255,255,255,0.25);
 }
 
 /* ── Layout principal con QR ── */
@@ -307,32 +313,24 @@ body {
 }
 
 /* ── Panel QR ── */
-
-.qrpanel-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  position: sticky;
-  top: 20px;
-  align-self: flex-start;
-}
-
 .qr-panel {
-  width: 300px;
+  width: 260px;
   flex-shrink: 0;
   background: #fff;
   border-radius: 12px;
-  padding: 12px 10px;
+  padding: 24px 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,.08);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  position: sticky;
+  top: 20px;
   text-align: center;
 }
 
 .qr-label {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 2px;
@@ -348,9 +346,9 @@ body {
 }
 
 .qr-code-wrapper {
-  width: 240px;
-  height: 240px;
-  margin: 4px 0;
+  width: 200px;
+  height: 200px;
+  margin: 8px 0;
   border: 3px solid #003d15;
   border-radius: 10px;
   overflow: hidden;
@@ -376,7 +374,7 @@ body {
 }
 
 .qr-sub {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
   color: #888;
   margin: 0;
